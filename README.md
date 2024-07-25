@@ -5,8 +5,8 @@ This repository contains code and resources for analyzing customer retail sales 
 
 ## Dataset
 The datasets used for this analysis are:
-- `Sales_Data_Transactions.csv`
-- `Sales_Data_Response.csv`
+- `Retail_Data_Transactions.csv`
+- `Retail_Data_Response.csv`
 
 These datasets contain information about customer transactions and responses, including transaction amounts, dates, and customer demographics.
 
@@ -27,5 +27,14 @@ To run the code in this repository, you need the following libraries installed:
 2. Navigate to the project directory:
    ```bash
    cd Data-Analytics-Project
-3. 
+3. Set up a virtual environment:
+   ```bash
+   python -m venv venv
+4. Activate the virtual environment:
+  ```bash
+   # On Windows
+   venv\Scripts\activate
+   # On macOS and Linux
+   source venv/bin/activate
+
 
