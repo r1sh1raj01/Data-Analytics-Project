@@ -23,4 +23,9 @@ To run the code in this repository, you need the following libraries installed:
 ## Usage
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your_username/customer-retail-sales-data-analysis.git
+   git clone https://github.com/r1sh1raj01/Data-Analytics-Project.git
+2. Navigate to the project directory:
+   ```bash
+   cd Data-Analytics-Project
+3. 
+
