@@ -31,12 +31,63 @@ To run the code in this repository, you need the following libraries installed:
    ```bash
    python -m venv venv
 4. Activate the virtual environment:
-  ```bash
+   ```bash
    # On Windows
    venv\Scripts\activate
+
    # On macOS and Linux
    source venv/bin/activate
 5. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+6. Run the Jupyter notebook to perform data analysis and visualization:
+   ```bash
+   jupyter notebook Retail-Data-Analysis.ipynb
+7. Follow the instructions in the notebook to load the datasets, clean the data, perform analysis, and generate visualizations.
+
+## Data Analysis
+The analysis includes:
+
+- **Basic Analysis:** Descriptive statistics and distribution analysis.
+- **Advanced Analysis:**
+  - **Time Series Analysis:** Trends in transaction amounts and customer responses over time.
+  - **Cohort Segmentation:** Grouping customers into cohorts to understand retention and value.
+  - **Churn Analysis:** Identifying patterns and behaviors of customers likely to churn.
+
+## Visualization
+Visualizations are created using Excel pivot tables and include:
+
+- **Retail Data Analysis:**
+  - Box graph: Sum of transaction amounts per customer over different time periods.
+  - Line graph: Total sum of responses per month-year.
+  - Column graph: Monthly total transaction amounts.
+  - Line graph: Average transaction amount per month.
+- **Additional Analysis:**
+  - Bar graph: Sum of monetary value per segment monthly.
+  - Column graph: Transaction frequency per year and month.
+  - Area graph: Number of customers per segment based on recency.
+  - Pie chart: Sum of monetary value per segment.
+  - Donut graph: Sum of frequency per segment.
+
+## Model Evaluation
+The performance of the analysis is evaluated using various metrics and visualizations. Detailed results and insights are provided in the Jupyter notebook and Excel files.
+
+## Future Work
+Future work may include:
+
+- Advanced predictive modeling for customer behavior.
+- Integration of additional data sources for richer analysis.
+- Deployment of the analysis in a production environment.
+
+## Contact
+For any questions or inquiries, please contact:
+
+- **Name:** [Raj Ballav Dutta]
+- **Email:** [duttaraj327@gmail.com]
+- **GitHub:** [https://github.com/r1sh1raj01/]
+
+
+
 
 
 
