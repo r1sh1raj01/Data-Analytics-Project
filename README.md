@@ -36,5 +36,9 @@ To run the code in this repository, you need the following libraries installed:
    venv\Scripts\activate
    # On macOS and Linux
    source venv/bin/activate
+5. Install the required libraries:
+
+
+
 
 
